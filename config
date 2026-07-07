@@ -144,7 +144,7 @@ bindsym $mod+Insert exec xfce4-settings-manager
 bindsym $mod+Home exec pavucontrol
 # Startup programs
 exec --no-startup-id nm-apple
-exec_always --no-startup-id feh --bg-fill /home/scoob/.config/i3/bg.jpg
+exec_always --no-startup-id feh --bg-fill /home/$USER/.config/i3/bg.jpg
 exec_always --no-startup-id  ~/.config/polybar/cuts/launch.sh
 exec dbus-update-activation-environment
 # Colors
